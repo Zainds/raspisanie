@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:firstDayOfWeek="2"
+        android:scaleY="0.95"
+        android:translationY="-14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_marginTop="140dp"-->
+<!--        android:alpha="0"-->
+<!--        android:background="@color/white"-->
+<!--        android:padding="@dimen/cardview_default_elevation"-->
+<!--        android:text="fgggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/calendarView"-->
+<!--        app:layout_constraintVertical_bias="0.537" />-->
+</RelativeLayout>
