@@ -14,7 +14,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:primaryColor="@color/purple_700"
+            app:primaryColor="#4C20AE"
             app:textColor="@color/purple_200"
             app:selectedItem_textColor="#3066BE"
             app:todayItem_textColor="#8DB580"

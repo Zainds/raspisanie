@@ -22,15 +22,15 @@ class MainActivity : AppCompatActivity() {
 //        var CalendarView = findViewById<CollapsibleCalendar>(R.id.calendarView)
 //        val collapsibleCalendar : CollapsibleCalendar = findViewById(R.id.calendarView)
 //        collapsibleCalendar.setCalendarListener(listener = CollapsibleCalendar.CalendarListener)
-        var RecyclerView = findViewById<RecyclerView>(R.id.recyclerView)
+        val RecyclerView = findViewById<RecyclerView>(R.id.recyclerView)
         RecyclerView.layoutManager = LinearLayoutManager(baseContext)
         RecyclerView.adapter = MyAdapter().apply {
-            items = MutableList(10, {
+            items = MutableList(10) {
                 Item((String(Random.nextBytes(5))),
                         (String(Random.nextBytes(5))),
                         (String(Random.nextBytes(5))),
                         (String(Random.nextBytes(5))))
-            })
+            }
         }
     }
 }
